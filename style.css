@@ -1,55 +1,66 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-#container{
+
+#container {
     width: 100%;
     height: 100vh;
     position: relative;
     margin-top: 0px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 100px;
     margin-top: 0px;
 }
-.logo{
+
+.logo {
     width: 90px;
 }
-.listitems{
-    list-style:none ;
+
+.listitems {
+    list-style: none;
     display: inline;
     margin: 0px 20px;
 }
-.links{
+
+.links {
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
+
 .links:hover {
     text-decoration: underline;
     color: darkred;
 }
-.homecontents{
+
+.homecontents {
     margin: 13% 0px 0px 8%;
 }
-#username{
+
+#username {
     font-size: 60px;
     font-family: "Gupter", serif;
     margin-bottom: 20px;
 }
-#lname{
+
+#lname {
     font-family: "Gupter", serif;
     color: orange;
 }
-#userdetails{
+
+#userdetails {
     line-height: 1.2;
 }
-#download{
+
+#download {
     background-color: black;
     color: aliceblue;
     text-decoration: none;
@@ -58,122 +69,152 @@ nav{
     display: inline-block;
     margin-top: 20px;
 }
-.homeimages{
+
+.homeimages {
     width: 45%;
     height: 75%;
     position: absolute;
     right: 30px;
     bottom: 0px;
 }
-.group1{
+
+.group1 {
     position: absolute;
     height: 100%;
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
-    transition: bottom 2s,left 1s;
+    transition: bottom 2s, left 1s;
 }
-.homeimages:hover #shape{
+
+.homeimages:hover #shape {
     bottom: 70px;
 
 }
-.homeimages:hover #girl{
-    left:40%
+
+.homeimages:hover #girl {
+    left: 40%
 }
-#about{
+
+#about {
     margin: 17% 0px 0px 8%;
 }
-.sectionhead{
+
+.sectionhead {
     text-align: center;
     margin-top: 20px;
 }
-.mainhead{
+
+.mainhead {
     font-size: 30px;
     margin-top: 20px;
 }
-.subhead{
+
+.subhead {
     font-size: 20px;
     color: darkolivegreen;
 }
-.aboutbody{
+
+.aboutbody {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap:5px;
+    gap: 5px;
 }
-.aboutcontent{
+
+.aboutcontent {
     font-size: 20px;
     text-align: center;
 }
-.information{
+
+.information {
     margin-top: 1.3rem;
-    
+
 }
-.infobox{
+
+.infobox {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
-.infobox>span{
+
+.infobox>span {
     margin-left: 1rem;
 }
 #skill{
     margin: 8% 8% 0px 8%;
 }
-.skillcontent{
+
+.skillcontent {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    gap: 2rem;
+    gap: 20rem;
     margin-top: 20px;
 }
-.img2{
-    width:500px;
+
+.img2 {
+    width: 400px;
 
 }
-.bars{
+
+.bars {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0px;
+    position: relative;
 }
-.barhead,.barpercent{
+
+.barhead,.barpercent {
     font-weight: 500;
     font-size: 1.2rem;
 }
-.basebar{
+
+.basebar {
     width: 100%;
     height: 0.5rem;
     border-radius: 10px;
-    position: absolute;
     bottom: 0px;
     background-color: black;
+    position: absolute;
 }
-.htmlbar{
-    width:91%;
-    background-color:orange;
+
+.htmlbar {
+    width: 91%;
+    background-color: orange;
 
 }
-.cssbar{
+
+.cssbar {
     background-color: orange;
     width: 85%;
 }
-.jsbar{
+
+.jsbar {
+    background-color: orange;
+    width: 86%;
+}
+.reactbar{
     background-color: orange;
     width: 89%;
 }
-#contact{
-    margin:0px 8%;
+
+#contact {
+    margin: 10px 10%;
+    
 
 }
-.iconcollection{
+
+.iconcollection {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
 }
-.icon{
+
+.icon {
     /* border: solid; */
     width: 50px;
     height: 50px;
@@ -183,62 +224,78 @@ nav{
     align-items: center;
     margin: 0px 10px;
 }
-.brands{
+
+.brands {
     color: black;
     font-size: 2rem;
 }
-.icon:hover{
+
+.icon:hover {
     background-image: linear-gradient(to bottom right, rgb(11, 122, 162), rgb(157, 0, 255));
 }
-.icon:hover .brands{
+
+.icon:hover .brands {
     color: aliceblue;
     /* animation */
-    animation: rotate 3s ;
+    animation: rotate 3s;
 }
-@keyframes rotate{
-    0%{
+
+@keyframes rotate {
+    0% {
         transform: rotate(30deg);
     }
-    20%{
+
+    20% {
         transform: rotate(-30deg);
     }
-    40%{
+
+    40% {
         transform: rotate(30deg);
     }
-    60%{
+
+    60% {
         transform: rotate(-30deg);
     }
-    80%{
+
+    80% {
         transform: rotate(30deg);
     }
-    100%{
+
+    100% {
         transform: rotate(-30deg);
     }
 
 }
-footer{
+
+footer {
     margin: 8% 0px 0px 0px;
     text-align: center;
     justify-content: space-between;
 }
-#copyright{
+
+#copyright {
     font-weight: 500;
 }
-.uparrow{
+
+.uparrow {
     float: right;
     margin: -30px 30px 30px 0px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 10px;
 
 }
-::-webkit-scrollbar-track{
-    background-color:azure;
+
+::-webkit-scrollbar-track {
+    background-color: azure;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: orange;
     border-radius: 5px;
 }
